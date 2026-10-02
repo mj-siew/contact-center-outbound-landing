@@ -66,6 +66,4 @@ landing-page/
 ├── docs/
 │   ├── index.html  # Generated reactivation landing page (GitHub Pages site)
 │   └── images/     # Generated hero + dish images, cooktop marks
-├── tests/
-└── tmp/            # Draft outputs and scratch files
 ```
