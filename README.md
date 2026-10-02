@@ -1,6 +1,6 @@
 # Landing-page prototype (Customer Care reactivation)
 
-** Sample **: https://mj-siew.github.io/contact-center-outbound-landing/
+**Sample Landing Page:**: https://mj-siew.github.io/contact-center-outbound-landing/
 
 A Google ADK prototype that turns a short Customer Care context — a former
 customer's cancellation reason plus the comeback offer — into a personalised
