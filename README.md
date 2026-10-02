@@ -39,13 +39,19 @@ voice, and offer accuracy. The Revisor applies the critique and calls
 Put your `OPENAI_API_KEY` in the `.env` file (gitignored), then run:
 
 ```bash
-agents-cli run "Create a reactivation page for a former customer who cancelled because it was too expensive and wants the current comeback offer in writing."
+agents-cli playground
+```
+
+Click on the link to the local web server frontend page then insert your prompt
+
+```bash
+Create a reactivation page for a former customer who cancelled because it was too expensive and wants the current comeback offer in writing.
 ```
 
 Requires [uv](https://docs.astral.sh/uv/) and
 [google-agents-cli](https://pypi.org/project/google-agents-cli/)
 (`uv tool install google-agents-cli`). Install dependencies with
-`agents-cli install`, and develop interactively with `agents-cli playground`.
+`agents-cli install`.
 
 The agents use `gpt-6-luna` through ADK `LiteLlm` and the OpenAI Image API
 (`gpt-image-2.5-sunburst`).
@@ -57,7 +63,9 @@ landing-page/
 ├── app/
 │   ├── agent.py    # Creator, Critic, Revisor (SequentialAgent)
 │   └── tools.py    # generate_draft, read_draft, generate_final
-├── docs/           # Brand guide used as the source of truth
+├── docs/
+│   ├── index.html  # Generated reactivation landing page (GitHub Pages site)
+│   └── images/     # Generated hero + dish images, cooktop marks
 ├── tests/
-└── tmp/            # Generated pages and images
+└── tmp/            # Draft outputs and scratch files
 ```
