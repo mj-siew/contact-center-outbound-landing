@@ -63,7 +63,7 @@ landing-page/
 ├── app/
 │   ├── agent.py    # Creator, Critic, Revisor (SequentialAgent)
 │   └── tools.py    # generate_draft, read_draft, generate_final
-├── docs/
-│   ├── index.html  # Generated reactivation landing page (GitHub Pages site)
-│   └── images/     # Generated hero + dish images, cooktop marks
+└── docs/
+    ├── index.html  # Generated reactivation landing page (GitHub Pages site)
+    └── images/     # Generated hero + dish images, cooktop marks
 ```
